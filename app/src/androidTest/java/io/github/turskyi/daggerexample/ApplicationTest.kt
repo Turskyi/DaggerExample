@@ -35,6 +35,7 @@ class ApplicationTest {
         // Login
         onView(withText("Welcome to Dagger World!")).check(matches(isDisplayed()))
         onView(withId(R.id.password)).perform(typeText("12345"), closeSoftKeyboard())
+        Thread.sleep(250)
         onView(withText("LOGIN")).perform(click())
 
         // Main
