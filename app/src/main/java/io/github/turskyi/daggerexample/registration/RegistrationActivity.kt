@@ -12,7 +12,7 @@ import javax.inject.Inject
 
 class RegistrationActivity : AppCompatActivity() {
 
-    // @Inject annotated fields will be provided by Dagger
+    // @Inject annotated fields will be provided by Dagger.
     @Inject
     lateinit var registrationViewModel: RegistrationViewModel
 

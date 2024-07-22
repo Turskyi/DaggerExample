@@ -1,14 +1,12 @@
 package io.github.turskyi.daggerexample.di
 
-import android.content.Context
 import dagger.Binds
 import dagger.Module
-import dagger.Provides
 import io.github.turskyi.daggerexample.storage.SharedPreferencesStorage
 import io.github.turskyi.daggerexample.storage.Storage
 
 // Tells Dagger this is a Dagger module
-// Because of @Binds, StorageModule needs to be an abstract class
+// Because of @Binds, StorageModule needs to be an abstract class.
 @Module
 abstract class StorageModule {
 
@@ -17,7 +15,7 @@ abstract class StorageModule {
     abstract fun provideStorage(storage: SharedPreferencesStorage): Storage
 }
 
-// alternative implementation
+// Alternative implementation.
 //@Module
 //class StorageModule {
 //
