@@ -71,3 +71,9 @@ This project does not have an intentional license.
 <img src="screenshots/Terms_Screenshot_20240721.png" width="200" alt="screenshot">
 <img src="screenshots/Hello_Screenshot_20240721.png" width="200" alt="screenshot">
 <img src="screenshots/Settings_Screenshot_20240721.png" width="200" alt="screenshot">
+
+## Contact:
+
+For any inquiries or suggestions, please open an issue on the GitHub repository
+or reach out to me directly at
+[dmytro@turskyi.com](mailto:dmytro@turskyi.com).
